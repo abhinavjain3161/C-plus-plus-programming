@@ -1,20 +1,19 @@
 #include<iostream>
 using namespace std;
-int main(){
-    // int x = 6;
-    // int y = 7;
-    // int* p1 = &x;
-    // int* p2 = &y;
+int main()
+{
+    // int x,y;
+    // cout<<"Enter first number: ";
+    
+    // cin>>x;
 
-    // cout<<*p1+*p2;
+    // cout<<"Enter second number: ";
+    // cin>>y;
 
-    int x,y;
-    int *p1=&x;
-    int *p2=&y;
-    cout<<"Enter first number: ";
-    cin>>*p1;
-    cout<<"Enter two number: ";
-    cin>>*p2;
-
-    cout<<*p1 + *p2;
+    // cout<<"Sum of the numbers is: ";
+    // cout<<x+y;
+    int p,q;
+    cout<<"Enter values of p and q";
+    cin>>p>>q;
+    cout<<"p ="<<p<<" q ="<<q;4
 }
