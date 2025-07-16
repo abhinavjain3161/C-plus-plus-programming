@@ -1,1 +1,1 @@
-fac
+firstDigit
