@@ -1,4 +1,5 @@
- // cout<<v[0]<<" ";
-    // cout<<v[1]<<" ";
-    // cout<<v[2]<<" ";
-    // cout<<v[3]<<" ";
+void display(int arr[], int n, int idx){
+//     if(idx==n) return;
+//     cout<<arr[idx]<<" ";
+//     display(arr,n,idx+1);
+// }

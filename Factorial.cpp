@@ -1,13 +1,12 @@
 #include<iostream>
 using namespace std;
+int fact(int n){
+    // base case
+    if(n==1 || n==0) return 1;
+    // recursive call
+    return n*fact(n-1);
+
+}
 int main(){
-    int fact = 1;
-    int n;
-    cout<<"Enter n: ";
-    cin>>n;
-    for(int i=1; i<=n; i++){
-        fact = fact * i;
-    }
-    cout<<"factorial of"<<n<<"is: "<<fact<<endl;
-    return 0;
+    cout<<fact(0);
 }
